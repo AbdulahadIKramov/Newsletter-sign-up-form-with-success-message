@@ -161,7 +161,7 @@ body {
     
     .container {
         width: 400px;
-        height: 100vh;
+        height: 110vh;
         flex-direction: column-reverse;
         border-radius: 0;
         justify-content: center;
