@@ -21,7 +21,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 .container {
@@ -158,9 +157,12 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        background-color: #fff;
+    }
     
     .container {
-        width: 400px;
+        width: 95%;
         height: 110vh;
         flex-direction: column-reverse;
         border-radius: 0;
