@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+      <div class="container">
+        <div class="letter-content">
+          <h1 class="letter-title">Stay updated!</h1>
+          <p class="join">Join 60,000+ product managers receiving monthly updates on:</p>
+          <div class="letter-products">
+            <span><img src="./assets/images/icon-list.svg" alt="list"></span>
+            <span> Product discovery and building what matters</span>
+          </div>
+          <div class="letter-products">
+            <span><img src="./assets/images/icon-list.svg" alt="list"></span>
+            <span>  Measuring to ensure updates are a success</span>
+          </div>
+          <div class="letter-products">
+            <span><img src="./assets/images/icon-list.svg" alt="list"></span>
+            <span> And much more!</span>
+          </div>
+          <form class="letter-inp">
+            <div class="label-inp">
+              <label for="address" id="email">Email address</label>
+              <span class="email-required">Valid email required</span>
+            </div>
+            <input type="email" required name="email" id="address" placeholder="email@company.com"><br>
+            <button class="button" type="button">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+
+        <picture class="letter-image"> 
+          <source srcset="./assets//images/illustration-sign-up-mobile.svg" media="(max-width: 500px)">
+          <source srcset="./assets//images/illustration-sign-up-desktop.svg">
+          <img class="letter-image" src="./assets//images/illustration-sign-up-desktop.svg" alt="">
+        </div>
+      </picture>
+
+      <div class="content-sacces">
+        <img src="./assets/images/icon-list.svg" alt="sacces">
+        <h1 class="sacces-title">Thanks for  <br> subscribing!</h1>
+        <p class="email-config">Lorem, ipsum dolor sit amet consectetur adipisicing eliscipit, soluta tempore dignissimos aliquam! Modi? <br> Lorem ipsum dolor sit.</p>
+        <form class="letter-inp"> 
+          <button class="button" id="sub-btn" type="button">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+      </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
